@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>AbroStudy</title>
+
+    <link rel = "icon" href = "/assets/logo_new.svg" type = "image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" />
+<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" />
+
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+      * {
+          font-family: 'Poppins', sans-serif;
+      }
+  </style>
+</head>
+<body>
+
+    <nav class=" navbar navbar-expand-lg navbar-dark fixed-top" style="background-color:#e2e7e8; background-image: url('/assets/back.jpg'); background-size: 100%;">
+        <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <img src="/assets/logo_new.svg" alt="" width="50" height="30" class="d-inline-block align-text-top">AbroStudy</a>  
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navmenu">
+       
+  
+        <ul class="navbar-nav ms-auto">
+           
+           
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  More
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/search_page.html">View all Universities</a></li>
+                  <li><a class="dropdown-item" href="/gre.html">View More Guidances</a></li>
+                  
+                </ul>
+              </li>
+        </ul> 
+      </div>
+  
+    </div>
+    </nav>
+
+
+<!--Showcase-->
+   <section class="text-dark p-5"  style="background-color:#e4f2f6;">
+    <div class="container">
+      <div class="d-sm-flex">
+      <div>
+      <h1 class="text-center fw-bold display-1 mb-5">IELTS <span style="color:#4b40bf;" >Guidance</span></h1>
+        <p class="lead">
+          The International English Language Testing System, is an international standardized test of English language proficiency for non-native English language speakers.<br>It is jointly managed by the British Council, IDP:IELTS Australia and Cambridge Assessment English, and was established in 1989.
+          <br>
+
+<br>IELTS is the most popular test for those looking to migrate to Australia, Canada, New Zealand and the UK. It is globally recognised by more than 11,000 employers, universities, schools and immigration bodies including 3,400 institutions in the USA.  </p>
+      </div>
+      <img class="img-fluid w-50 p-5" src="./assets/ielts.jpeg" alt="">
+    </div>
+    </div>
+   </section>
+
+
+
+   <section id="guidance" class="p-5" style="background-color:#FFFFFF">
+    <div class="container">
+      
+      
+      <div class="row align-items-center justify-content-between">
+       <div class="col-md">
+          <img class="img-fluid w-90 d-none d-sm-block" src="/assets/ielts test.webp" class="img-fluid" alt=""> 
+        </div>
+
+        <div class="col-md p-5">
+
+        <h2>IELTS  <span style="color:#4b40bf">General Training test</span></h2>
+          <p class="lead">
+          There are four sections to the test: Listening, Reading, Writing and Speaking. When you book your IELTS test with the British Council, the test will take place in an official British Council IELTS test centre, whether you choose IELTS on paper or IELTS on computer.
+          <br><br> If you take a IELTS on paper test, your Speaking test may be offered on the same day as the other sections of the test, or up to a week before or after. You will receive notification in advance if your Speaking test is on a different day to your main test day.</p>
+         
+
+          <a href="/ielts" class="btn btn-dark mt-3">
+          IELTS General Training test Part 1: Listening Tasks
+          </a>
+          <a href="/ielts" class="btn btn-dark mt-3">
+          IELTS General Training test Part 2: Reading Tasks
+          </a>
+          <a href="/ielts" class="btn btn-dark mt-3">
+          IELTS General Training test Part 3: Writing Tasks
+          </a>
+          <a href="/ielts" class="btn btn-dark mt-3">
+          IELTS General Training test Part 4: Speaking Tasks
+          </a>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+   
+
+
+
+   <!--Band scores-->
+   <section class="text-dark p-5 text-center"  style="background-color:#e4f2f6;">
+   
+   <div class="text-center p-3">
+    <h2><span  style="color:#4b40bf">IELTS Band Scores: </span>How they are calculated</h3>
+   </div>
+
+
+  <h4>IELTS Listening Scores</h4>
+  <div class="table-responsive" id="no-more-tables">
+    <table class="table bg-white">
+      <thead class="bg-dark text-light">
+        <tr>
+          <th>Currect Answers</th>
+          <th>Band Scores</th>
+          
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td data-title="Currect Answers">39-40</td>
+          <td data-title="Band Scores">9</td>
+          
+        </tr>
+
+        <tr>
+          <td data-title="Currect Answers">37-38</td>
+          <td data-title="Band Scores">8.5</td>
+        </tr>
+
+        <tr>
+          <td data-title="Currect Answers">35-36</td>
+          <td data-title="Band Scores">8</td>
+        </tr>
+
+        <tr>
+          <td data-title="Currect Answers">32-34</td>
+          <td data-title="Band Scores">7.5</td>
+        </tr>
+
+        <tr>
+          <td data-title="Currect Answers">30-31</td>
+          <td data-title="Band Scores">7</td>
+        </tr>
+
+        <tr>
+          <td data-title="Currect Answers">26-29</td>
+          <td data-title="Band Scores">6.5</td>
+        </tr>
+
+        <tr>
+          <td data-title="Currect Answers">23-25</td>
+          <td data-title="Band Scores">6</td>
+        </tr>
+
+        <tr>
+          <td data-title="Currect Answers">18-22</td>
+          <td data-title="Band Scores">5.5</td>
+        </tr>
+
+        <tr>
+          <td data-title="Currect Answers">16-17</td>
+          <td data-title="Band Scores">5</td>
+        </tr>
+
+        <tr>
+          <td data-title="Currect Answers">13-15</td>
+          <td data-title="Band Scores">4.5</td>
+        </tr>
+
+        <tr>
+          <td data-title="Currect Answers">11-12</td>
+          <td data-title="Band Scores">4</td>
+        </tr>
+
+      </tbody>
+    </table>
+
+  </div>
+
+
+
+  <h4>IELTS Reading Scores</h4>
+  <div class="table-responsive" id="no-more-tables">
+    <table class="table bg-white">
+      <thead class="bg-dark text-light">
+        <tr>
+          <th>Currect Answers</th>
+          <th>Band Scores</th>
+          
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td data-title="Currect Answers">40</td>
+          <td data-title="Band Scores">9</td>
+          
+        </tr>
+
+        <tr>
+          <td data-title="Currect Answers">39</td>
+          <td data-title="Band Scores">8.5</td>
+        </tr>
+
+        <tr>
+          <td data-title="Currect Answers">37-38</td>
+          <td data-title="Band Scores">8</td>
+        </tr>
+
+        <tr>
+          <td data-title="Currect Answers">36</td>
+          <td data-title="Band Scores">7.5</td>
+        </tr>
+
+        <tr>
+          <td data-title="Currect Answers">34-35</td>
+          <td data-title="Band Scores">7</td>
+        </tr>
+
+        <tr>
+          <td data-title="Currect Answers">32-33</td>
+          <td data-title="Band Scores">6.5</td>
+        </tr>
+
+        <tr>
+          <td data-title="Currect Answers">30-31</td>
+          <td data-title="Band Scores">6</td>
+        </tr>
+
+        <tr>
+          <td data-title="Currect Answers">27-29</td>
+          <td data-title="Band Scores">5.5</td>
+        </tr>
+
+        <tr>
+          <td data-title="Currect Answers">23-26</td>
+          <td data-title="Band Scores">5</td>
+        </tr>
+
+        <tr>
+          <td data-title="Currect Answers">19-22</td>
+          <td data-title="Band Scores">4.5</td>
+        </tr>
+
+        <tr>
+          <td data-title="Currect Answers">15-18</td>
+          <td data-title="Band Scores">4</td>
+        </tr>
+
+        <tr>
+          <td data-title="Currect Answers">12-14</td>
+          <td data-title="Band Scores">3.5</td>
+        </tr>
+
+        <tr>
+          <td data-title="Currect Answers">9-11</td>
+          <td data-title="Band Scores">3</td>
+        </tr>
+
+        <tr>
+          <td data-title="Currect Answers">6-8</td>
+          <td data-title="Band Scores">2.5</td>
+        </tr>
+
+      </tbody>
+    </table>
+
+  </div>
+</section>
+
+<section class="text-dark"  style="background-color:#FFFFFF;">
+  <div class="container">
+    <div class="d-sm-flex pb-5">
+      <div>
+        <h2 class="p-5 text-center"><span style="color:#4b40bf">IELTS</span> on paper or computer</h4>
+         <h4>IELTS on computer</h4>
+         
+         <p>You will answer the Listening, Reading and Writing sections on a computer at one of our official test centres. The Speaking test will still be face-to-face with a trained IELTS Examiner, as this is the most effective way to assess your speaking skills.</p>
+         <p>With IELTS on computer, you will now have more test dates to choose from - and your results will be available in 3-5 days</p>
+         <p>IELTS on computer tests are available in Dhaka, Chattogram and Sylhet at one of our official test centres.</p>
+
+         <h4>IELTS on paper</h4>
+         <p>If you choose this option, you will write the answers to the Listening, Reading and Writing sections on paper. The Speaking test will be conducted face-to-face with a trained IELTS Examiner.</p>
+         <p>Your results will be available after 13 calendar days from the test date. If you have any special requirements, you should take the IELTS on paper test</p>
+         <a href="#" class="btn btn-lg btn-outline-light" >View more</a>
+        </div>
+      <img class="image-fluid image-thumbnail w-50 p-5" src="./assets/ielts real life 1.webp" alt="">
+      
+    </div>
+  </div>
+  
+   
+  
+ </section>
+
+ 
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+ 
+ <section>
+    <div class="footer">
+      <div class="inner_footer">
+        <div class="lg_container">
+    <img src="/assets/logo_new.svg">
+
+        </div>
+        <div class="footer_third">
+          <h1>Need Help?</h1>
+          <a href="#">Terms &amp; Conditions</a>
+          <!-- <a href="">Privacy Policy</a> -->
+          <a href="#">Contact Us</a>
+        </div>
+      <div class="footer_third">
+          <span>
+             © AbroStudy 2022<br><br>
+             AbroStudy Corporation<br>
+             One Study Way<br>
+             Redmond, WA 98052-6399
+             USA
+          </span>
+      </div>
+
+      <div class="footer_third">
+        <h1>Follow us</h1>
+        <a href="">Facebook</a>
+        <a href="">Instagram</a>
+        <a href="">Twitter</a>
+      </div>
+   </div>
+</div>
+
+</section>
+</body>
+</html>
